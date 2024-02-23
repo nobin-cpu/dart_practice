@@ -53,18 +53,20 @@ Dhaka*/
 //growable and fixed list
 
 //growable list elements
-  var cities = ["Dhaka", "Rangpur", "Rajshahi"];
+
+  /*  var cities = ["Dhaka", "Rangpur", "Rajshahi"];
 
   cities.add("sylhet");
   cities.addAll(["Munshiganj", "Narayangonj"]);
   cities.insert(3, "coxsBazar");
+  cities.replaceRange(1,3,[ "coxsBazar"]);
 
   //remove
 
   cities.remove("Munshiganj");
   cities.removeLast();
   cities.removeAt(1);
-  print(cities);
+  print(cities);*/
 
   //output
   //[Dhaka, Rangpur, Rajshahi, sylhet]
@@ -72,4 +74,27 @@ Dhaka*/
 //non growable
 
 /* const cities = ["Dhaka", "Rangpur", "Rajshahi"];*/
+
+  //Map
+
+  var cities = {"name": "Nobinis", "age": "22", "hobby": "Exploaring"};
+
+  cities["fav_drink"] = "Sprite";
+
+  print(cities);
+  print(cities["name"]);
+
+//map by constructor
+
+  var aboutMeMap = new Map();
+  aboutMeMap["name"] = "Takishi";
+  aboutMeMap["country"] = "Japan";
+  aboutMeMap["age"] = "92";
+
+  aboutMeMap.addAll({"brother": "samir", "marital_status": "unmarried"});
+  aboutMeMap.remove("marital_status");
+  aboutMeMap.clear();
+  print(aboutMeMap);
+  print(aboutMeMap.keys);
+  print(aboutMeMap.values);
 }
