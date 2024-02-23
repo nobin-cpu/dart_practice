@@ -86,7 +86,7 @@ Dhaka*/
 
 //map by constructor
 
-  var aboutMeMap = new Map();
+/*  var aboutMeMap = new Map();
   aboutMeMap["name"] = "Takishi";
   aboutMeMap["country"] = "Japan";
   aboutMeMap["age"] = "92";
@@ -96,5 +96,11 @@ Dhaka*/
   aboutMeMap.clear();
   print(aboutMeMap);
   print(aboutMeMap.keys);
-  print(aboutMeMap.values);
+  print(aboutMeMap.values);*/
+
+  //set
+
+  var set = new Set.from([10, 20, 30, 40, 50, "String"]);
+
+  print(set);
 }
