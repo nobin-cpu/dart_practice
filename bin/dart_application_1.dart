@@ -2,12 +2,23 @@ void main() {
   var a = 10;
   var b = 4;
 
+  //Arithmetic operators
 
- //Arithmetic operators
-
-  print(a+b);
+/*  print(a+b);
   print(a-b);
   print(a*b);
   print(a/b);
-  print(a%b);
+  print(a%b);*/
+
+  // unary operators
+
+// postfix
+
+  print(a++);
+  print(a++);
+  print(a++);
+  //prefix
+  print(++a);
+  print(++a);
+  print(++a);
 }
