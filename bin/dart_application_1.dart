@@ -100,17 +100,30 @@ Dhaka*/
 
   //set loop
 
-  var set = new Set();
-  set.add(10);
-  set.add(10);
-  set.add(20);
-  set.add(30);
-  set.add(10);
+  // var set = new Set();
+  // set.add(10);
+  // set.add(10);
+  // set.add(20);
+  // set.add(30);
+  // set.add(10);
 
+  // var loopSet;
+
+  // for (loopSet in set) {
+  //   print(loopSet);
+  // }
+//list loop
+
+  List myList = [];
+  myList.add(10);
+  myList.add(10);
+  myList.add(20);
+  myList.add(30);
+  myList.add(10);
 
   var loopSet;
 
-  for (loopSet in set) {
+  for (loopSet in myList) {
     print(loopSet);
   }
 }
