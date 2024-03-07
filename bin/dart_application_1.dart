@@ -100,7 +100,13 @@ Dhaka*/
 
   //set loop
 
-  var set = new Set.from([10, 20, 30, 40, 50, "String"]);
+  var set = new Set();
+  set.add(10);
+  set.add(10);
+  set.add(20);
+  set.add(30);
+  set.add(10);
+
 
   var loopSet;
 
