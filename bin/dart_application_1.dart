@@ -98,9 +98,13 @@ Dhaka*/
   print(aboutMeMap.keys);
   print(aboutMeMap.values);*/
 
-  //set
+  //set loop
 
   var set = new Set.from([10, 20, 30, 40, 50, "String"]);
 
-  print(set);
+  var loopSet;
+
+  for (loopSet in set) {
+    print(loopSet);
+  }
 }
