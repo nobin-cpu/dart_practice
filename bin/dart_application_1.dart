@@ -1,3 +1,5 @@
+import 'dart:collection';
+
 void main() {
   var a = 10;
   var b = 4;
@@ -77,12 +79,12 @@ Dhaka*/
 
   //Map
 
-  var cities = {"name": "Nobinis", "age": "22", "hobby": "Exploaring"};
+  // var cities = {"name": "Nobinis", "age": "22", "hobby": "Exploaring"};
 
-  cities["fav_drink"] = "Sprite";
+  // cities["fav_drink"] = "Sprite";
 
-  print(cities);
-  print(cities["name"]);
+  // print(cities);
+  // print(cities["name"]);
 
 //map by constructor
 
@@ -114,16 +116,34 @@ Dhaka*/
   // }
 //list loop
 
-  List myList = [];
-  myList.add(10);
-  myList.add(10);
-  myList.add(20);
-  myList.add(30);
-  myList.add(10);
+  // List myList = [];
+  // myList.add(10);
+  // myList.add(10);
+  // myList.add(20);
+  // myList.add(30);
+  // myList.add(10);
 
-  var loopSet;
+  // var loopSet;
 
-  for (loopSet in myList) {
-    print(loopSet);
+  // for (loopSet in myList) {
+  //   print(loopSet);
+  // }
+
+  // hashmap
+
+  var myHashmap = new HashMap();
+
+  myHashmap['name'] = "Nobin";
+  myHashmap['age'] = "23";
+  myHashmap['hobby'] = "Sleeping";
+  myHashmap.remove("age");
+  myHashmap.addAll({"first_phone": "motorolla", "friend": "ant"});
+  var hashmap;
+  for (hashmap in myHashmap.values) {
+    print(hashmap);
+  }
+  var keymaps;
+  for (keymaps in myHashmap.keys) {
+    print(keymaps);
   }
 }
