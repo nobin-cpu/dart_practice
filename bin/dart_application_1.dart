@@ -149,18 +149,27 @@ Dhaka*/
 
 //Dart generics
 
-  var list = <String>[];
-  var map = <String, String>{};
-  var set = <String>{};
-  list.add("this is string");
-  map.addAll({
-    "This is string key": "This is map value",
-    "This is string key2": "This is map value2"
-  });
-  set.add("this is set String");
+  // var list = <String>[];
+  // var map = <String, String>{};
+  // var set = <String>{};
+  // list.add("this is string");
+  // map.addAll({
+  //   "This is string key": "This is map value",
+  //   "This is string key2": "This is map value2"
+  // });
+  // set.add("this is set String");
 
-  print(set);
-  print(list);
-  print(map);
+  // print(set);
+  // print(list);
+  // print(map);
 
+  //function
+
+  sumfunc();
+}
+
+void sumfunc() {
+  int a = 10;
+  int b = 20;
+  print(a + b);
 }
