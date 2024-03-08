@@ -163,13 +163,14 @@ Dhaka*/
   // print(list);
   // print(map);
 
-  //function
+  //function and return from function
 
-  sumfunc();
+  print(sumfunc() + 20);
 }
 
-void sumfunc() {
+int sumfunc() {
   int a = 10;
   int b = 20;
-  print(a + b);
+  int c = a + b;
+  return c;
 }
