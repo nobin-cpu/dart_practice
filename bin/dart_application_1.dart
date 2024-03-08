@@ -131,19 +131,36 @@ Dhaka*/
 
   // hashmap
 
-  var myHashmap = new HashMap();
+  // var myHashmap = new HashMap();
 
-  myHashmap['name'] = "Nobin";
-  myHashmap['age'] = "23";
-  myHashmap['hobby'] = "Sleeping";
-  myHashmap.remove("age");
-  myHashmap.addAll({"first_phone": "motorolla", "friend": "ant"});
-  var hashmap;
-  for (hashmap in myHashmap.values) {
-    print(hashmap);
-  }
-  var keymaps;
-  for (keymaps in myHashmap.keys) {
-    print(keymaps);
-  }
+  // myHashmap['name'] = "Nobin";
+  // myHashmap['age'] = "23";
+  // myHashmap['hobby'] = "Sleeping";
+  // myHashmap.remove("age");
+  // myHashmap.addAll({"first_phone": "motorolla", "friend": "ant"});
+  // var hashmap;
+  // for (hashmap in myHashmap.values) {
+  //   print(hashmap);
+  // }
+  // var keymaps;
+  // for (keymaps in myHashmap.keys) {
+  //   print(keymaps);
+  // }
+
+//Dart generics
+
+  var list = <String>[];
+  var map = <String, String>{};
+  var set = <String>{};
+  list.add("this is string");
+  map.addAll({
+    "This is string key": "This is map value",
+    "This is string key2": "This is map value2"
+  });
+  set.add("this is set String");
+
+  print(set);
+  print(list);
+  print(map);
+
 }
